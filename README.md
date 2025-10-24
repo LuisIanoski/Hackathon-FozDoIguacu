@@ -32,7 +32,7 @@ O sistema oferece uma API REST completa para gerenciar:
 
 1. Clone o repositório:
 ```bash
-git clone [url-do-repositorio]
+git clone https://github.com/LuisIanoski/Hackaton-FozDoIguacu.git
 cd hackaton_foz
 ```
 
