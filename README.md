@@ -134,7 +134,7 @@ PUT    /api/accounts/agency-profiles/{id} # Atualiza uma agência
 DELETE /api/accounts/agency-profiles/{id} # Remove uma agência
 ```
 
-## 📝 Exemplos de Uso
+## Exemplos de Uso
 
 ### Autenticação
 ```json
@@ -272,7 +272,8 @@ O sistema implementa cache para otimizar o desempenho em:
 - Sanitização de inputs
 - Rate limiting para prevenção de abusos
 
-## 📄 Licença
+## Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
 Desenvolvido por [Luis H. Ianoski](https://github.com/LuisIanoski/).
