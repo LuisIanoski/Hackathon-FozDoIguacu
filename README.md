@@ -274,5 +274,5 @@ O sistema implementa cache para otimizar o desempenho em:
 
 ## Licença
 
-# Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+## Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 Desenvolvido por [Luis H. Ianoski](https://github.com/LuisIanoski/).
