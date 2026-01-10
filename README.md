@@ -1,4 +1,4 @@
-# API de Turismo - Foz do Iguaçu
+# API de Turismo - Foz do Iguaçu 🥇
 
 Sistema de gerenciamento de pontos turísticos, comércios e benefícios para turistas em Foz do Iguaçu.
 
@@ -272,7 +272,12 @@ O sistema implementa cache para otimizar o desempenho em:
 - Sanitização de inputs
 - Rate limiting para prevenção de abusos
 
+## Prêmio
+
+🥇 Primeiro lugar no Hackaton XSEPIN.
+
 ## Licença
 
-### Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-Desenvolvido por [Luis H. Ianoski](https://github.com/LuisIanoski/).
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+Desenvolvido por [Luís H. Ianoski](https://github.com/LuisIanoski/).
