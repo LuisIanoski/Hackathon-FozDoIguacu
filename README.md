@@ -1,8 +1,8 @@
-# 🌎 API de Turismo - Foz do Iguaçu
+# API de Turismo - Foz do Iguaçu
 
 Sistema de gerenciamento de pontos turísticos, comércios e benefícios para turistas em Foz do Iguaçu.
 
-## 📋 Índice
+## Índice
 
 - [Visão Geral](#-visão-geral)
 - [Tecnologias](#-tecnologias)
@@ -11,7 +11,7 @@ Sistema de gerenciamento de pontos turísticos, comércios e benefícios para tu
 - [Exemplos de Uso](#-exemplos-de-uso)
 - [Autenticação](#-autenticação)
 
-## 🎯 Visão Geral
+## Visão Geral
 
 O sistema oferece uma API REST completa para gerenciar:
 - Pontos turísticos de Foz do Iguaçu
@@ -20,7 +20,7 @@ O sistema oferece uma API REST completa para gerenciar:
 - Chaves de acesso para turistas
 - Cupons de desconto em estabelecimentos comerciais
 
-## 🛠 Tecnologias
+## Tecnologias
 
 - Python 3.12
 - Django 5.2.2
@@ -28,7 +28,7 @@ O sistema oferece uma API REST completa para gerenciar:
 - JWT Authentication
 - SQLite (Desenvolvimento)
 
-## 💻 Instalação
+## Instalação
 
 1. Clone o repositório:
 ```bash
@@ -72,7 +72,7 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-## 🚀 Endpoints da API
+## Endpoints da API
 
 ### Autenticação
 ```
@@ -185,7 +185,7 @@ POST /api/business/coupons/
 }
 ```
 
-## 🔐 Autenticação
+## Autenticação
 
 A API utiliza autenticação JWT (JSON Web Token). Para acessar endpoints protegidos:
 
@@ -204,14 +204,14 @@ Headers:
 Authorization: Bearer seu_token_aqui
 ```
 
-## 🔄 Cache
+## Cache
 
 O sistema implementa cache para otimizar o desempenho em:
 - Detalhes dos pontos turísticos
 - Listagem de chaves
 - Informações de localização
 
-## 🏗 Modelos de Dados
+## Modelos de Dados
 
 ### Location
 - numero (int)
@@ -258,13 +258,13 @@ O sistema implementa cache para otimizar o desempenho em:
 - registration_number (string, opcional)
 - verified (boolean)
 
-## 📈 Performance
+## Performance
 
 - Indexação otimizada para consultas frequentes
 - Cache implementado para recursos populares
 - Paginação para grandes conjuntos de dados
 
-## 🔒 Segurança
+## Segurança
 
 - Autenticação JWT
 - Proteção contra CSRF
@@ -272,14 +272,7 @@ O sistema implementa cache para otimizar o desempenho em:
 - Sanitização de inputs
 - Rate limiting para prevenção de abusos
 
-## 🤝 Contribuição
-
-1. Fork o projeto
-2. Crie uma branch (`git checkout -b feature/sua-feature`)
-3. Commit suas mudanças (`git commit -m 'Adicionando nova feature'`)
-4. Push para a branch (`git push origin feature/sua-feature`)
-5. Abra um Pull Request
-
 ## 📄 Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Desenvolvido por [Luis H. Ianoski](https://github.com/LuisIanoski/).
